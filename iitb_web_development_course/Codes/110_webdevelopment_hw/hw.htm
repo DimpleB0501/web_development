@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Div exercise</title>
+  <style type="text/css">
+    .split {
+        left:0;
+        right:0;
+        border:solid black;
+        position: fixed;
+    }
+
+    .upper {
+        top: 0;
+        height: 30%;
+    }
+
+    .center{
+        top: 30%;
+        height: 50%;
+        background-image: url('images/villans.jpg');
+        background-size: 100% 100%;
+    }
+
+    .lower {
+        bottom: 0;
+        height: 20%;
+    }
+
+    .left{
+        left: 0;
+        width: 33.33%;
+        border: solid black;
+        background-image: url('images/ir.jpg');
+        display: flex;
+        justify-content: left;
+        align-items: flex-end;
+
+    }
+
+    .centerdiv{
+        left: 33.33%;
+        width: 33.33%;
+        border: solid black;
+        background-image: url('images/bw.jpg');
+
+    }
+
+    .right{
+        left: 66.66%;
+        width:33.33%;
+        border: solid black;
+        background-image: url('images/ca.jpg');
+        display: flex;
+        justify-content: left;
+        align-items: flex-end;
+
+    }
+
+    /* If you want the content centered horizontally and vertically */
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .botleft{
+        left: 0;
+        width: 50%;
+        border: solid black;
+        background-image: url('images/hu.jpg');
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: left;
+        align-items: flex-end;
+        padding: 1%;
+
+    }
+
+    .botright{
+        left: 50%;
+        width: 50%;
+        border: solid black;
+        background-color: pink;
+         background-image: url('images/th.jpg');
+        background-size: 100% 100%;
+        padding: 1%;
+    }
+
+    /* Style the image inside the centered container, if needed */
+    .centered img {
+        width: 250px;
+        border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body>
+
+    <div class="split upper right">
+        <h2> Captain America</h2>
+    </div>
+
+    <div class="split upper centerdiv">
+
+        <h2 style="text-align:left">Black Widow</h2>
+    </div>
+
+    <div class="split upper left">
+        <h2>Iron Man</h2>
+    </div>
+
+
+
+    <div class = "split center">
+
+       <marquee direction = right>
+            <img src="images/dp.jpg" alt="" />
+       </marquee>
+
+    </div>
+
+
+
+    <div class="split lower botleft">
+        <h2>Hulk</h2>
+    </div>
+
+    <div class="split lower botright">
+        <h2 style="text-align:left"> Thor</h2>
+    </div>
+
+
+</body>
+
+</html>

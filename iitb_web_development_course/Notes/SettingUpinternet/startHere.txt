@@ -1,0 +1,7 @@
+1.Appwiz.cpl
+2.Go through the images the first time
+3.ok -> download
+4. make your webpage folder(mine is 62) and copy it in C:\inetpub\wwwroot
+5. now go to google chrome 
+6.and type localhost/folder_name(mine is http://localhost/62/)
+7. your web page will open in chrome.
