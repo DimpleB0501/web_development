@@ -1,0 +1,7 @@
+- Install visual studio code editor
+- Color theme - monokai pro or monokai classic
+- Settings
+  - **Auto Save** change to **onFocusChange**
+  - **Word Wrap** change to **on**
+  - **Format On Save** click yes
+  - **File icon theme** set to **Seti**
