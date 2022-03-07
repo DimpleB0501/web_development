@@ -6,8 +6,8 @@
 # VS code add ons
 - Install **Prettier - Code formatter**
 - Settings 
- - Set **Default Formatter** to **Prettier-code formatter**
- - **Format On Save** check box
- - **Auto save** to **onFocusChange**
- - Set **Tab Size** to 2
- - Set **color theme** to **one monokai**
+  - Set **Default Formatter** to **Prettier-code formatter**
+  - **Format On Save** check box
+  - **Auto save** to **onFocusChange**
+  - Set **Tab Size** to 2
+  - Set **color theme** to **one monokai**
